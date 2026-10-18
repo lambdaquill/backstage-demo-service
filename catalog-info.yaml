@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-demo-service
+  description: My first component in Backstage
+  annotations:
+    github.com/project-slug: Krishn321/backstage-demo-service
+spec:
+  type: service
+  lifecycle: experimental
+  owner: guest
